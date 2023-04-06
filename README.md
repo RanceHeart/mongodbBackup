@@ -5,9 +5,9 @@ This repository contains two Python scripts to help you backup and restore Mongo
 ## Setup
 
 1. Create a `.env` file in the same directory as the scripts with the following content:
-
+```sh
 MONGO_URI=mongodb://{adminName}:{adminPasswd}@{hostName}:{hostPort}/?authSource=admin
-
+```
 Replace `{adminName}`, `{adminPasswd}`, `{hostName}`, and `{hostPort}` with your actual MongoDB credentials and connection details.
 
 ## Usage
